@@ -1,0 +1,59 @@
+# Dependency Directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Build Outputs & Cache
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.cache/
+.parcel-cache/
+.turbo/
+*.tsbuildinfo
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Environment & Secrets (Zero Leaks)
+.env
+.env.*
+!.env.example
+
+# Logs & Diagnostics
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# IDEs / Editors Configuration
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.eslintcache
+.stylelintcache
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local Agent Configurations
+.agents/
